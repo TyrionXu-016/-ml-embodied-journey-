@@ -1,15 +1,105 @@
-# -ml-embodied-journey-
+# ML-具身智能学习路线图（后端工程师版）
 
-阶段	主题	时间	关键词	
-0	Python 数学速通	2 周	Py3/Numpy/Pandas/线代/概率/微积分	
-1	机器学习基石	6 周	Scikit-learn、EDA、特征工程、评估、Kaggle	
-2	深度学习	8 周	PyTorch、CNN、RNN、Transformer、GPU、Docker	
-3	强化学习 & 模仿学习	8 周	RLlib、Stable-Baselines3、Gym、MuJoCo、PPO、SAC	
-4	机器人仿真与中间件	6 周	ROS2、Isaac Sim、MoveIt、gRPC、Protobuf	
-5	具身智能综合实战	12 周	LLM+VLM 规划、多模态感知、技能库、MLOps、项目报告	
+> 后端 → 机器学习 → 深度学习 → 强化学习 → 机器人仿真 → 具身智能实战  
+> 每阶段完成后把 `- [ ]` 改成 `- [x]` 即可自动渲染勾选框。
 
-任务	输出物	资源	
-① 完成 Python 100 题	GitHub: `python-100`	[LeetCode-Python](https://leetcode.com/problemset/all/)	
-② Numpy 100 题	Notebook: `numpy-100.ipynb`	[GitHub rougier/numpy-100](https://github.com/rougier/numpy-100)	
-③ 线性代数可视化	Notebook：3Blue1Brown 笔记	[Bilibili 3Blue1Brown 官方中字](https://www.bilibili.com/video/B1Ws411c7d4)	
-④ 概率论速刷	小测验 ≥80 分	[Khan Academy 概率](https://zh.khanacademy.org/math/statistics-probability)	
+---
+
+## 阶段 0：Python & 数学速通（2 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| Python 100 题 | `python-100/` 文件夹 + 代码 | - [ ] |
+| Numpy 100 题 | `numpy-100.ipynb` | - [ ] |
+| 3Blue1Brown 线性代数笔记 | `notes-linear-algebra.md` | - [ ] |
+| 概率论小测 ≥80 分 | 测验截图 | - [ ] |
+
+---
+
+## 阶段 1：机器学习基石（6 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| 泰坦尼克 EDA + 基线 | `01-titanic-eda.ipynb` | - [ ] |
+| 特征工程 & 交叉验证 | Kaggle 分数 ≥0.79 | - [ ] |
+| 模型族谱对比 | `02-model-zoo.ipynb` + 曲线图 | - [ ] |
+| 自动化调优 Pipeline | `titan_automl.py` | - [ ] |
+| 无监督 & 降维 | `03-clustering-pca.ipynb` | - [ ] |
+| 房价预测结课 | `04-house-prices/` 仓库 | - [ ] |
+
+---
+
+## 阶段 2：深度学习（8 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| PyTorch 张量 & Autograd | `pytorch-01-tensor.ipynb` | - [ ] |
+| 全连接 Fashion-MNIST | Acc ≥92 % + TensorBoard 日志 | - [ ] |
+| CNN CIFAR-10 | Acc ≥90 % + 训练曲线 | - [ ] |
+| 迁移学习猫狗二分类 | `transfer_learning.py` | - [ ] |
+| LSTM 生成宋词 | `lstm-poem.ipynb` | - [ ] |
+| 迷你 Transformer | BLEU ≥20 英法翻译 | - [ ] |
+| CLIP 图文检索 | `clip-flickr8k-demo.ipynb` | - [ ] |
+| 阶段总结 | `deep-learning-portfolio/` 仓库 | - [ ] |
+
+---
+
+## 阶段 3：强化学习 & 模仿学习（8 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| Q-Learning 格子世界 | `q-learning-grid.ipynb` | - [ ] |
+| DQN Breakout | 得分 ≥100 + 模型文件 | - [ ] |
+| REINFORCE CartPole | 得分 500 完整训练曲线 | - [ ] |
+| PPO HalfCheetah | 均值 ≥3000（W&B 日志） | - [ ] |
+| 行为克隆 CarRacing | 得分 ≥800 | - [ ] |
+| 自定义 Gym 环境 | `gym-foo/` 独立包 | - [ ] |
+| 阶段总结 | `rl-portfolio/` 仓库 | - [ ] |
+
+---
+
+## 阶段 4：机器人仿真 & 中间件（6 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| ROS2 话题小 demo | `ros2_beginner/` 包 | - [ ] |
+| 二连杆 URDF + RViz2 | `two-link/urdf/` + 截图 | - [ ] |
+| MoveIt2 运动规划 | 避障成功 GIF | - [ ] |
+| Isaac Sim Python API | 采集 RGB-D 脚本 | - [ ] |
+| MuJoCo 3 指夹爪抓取 | SAC 训练日志 | - [ ] |
+| gRPC 图像服务 | `robot_grpc/` 仓库 | - [ ] |
+
+---
+
+## 阶段 5：具身智能综合实战（12 周）
+
+| 任务 | 输出物 | 状态 |
+|---|---|---|
+| 文献综述 | `survey-embodied-LLM.md` ≥20 篇 | - [ ] |
+| 系统架构设计 | `system_design.md` + 时序图 | - [ ] |
+| 多模态感知 | CLIP+PointNet 分类 90 %+ | - [ ] |
+| LLM Planner | 子任务 JSON 输出示例 | - [ ] |
+| 技能库封装 | 8 个 MoveIt Action | - [ ] |
+| 端到端 Demo | 桌面整理视频 | - [ ] |
+| 评估 & 消融 | 报告 + W&B 曲线 | - [ ] |
+| 技术报告 & 分享 | `Embodied-LLM-Robot/` 仓库 + 视频 | - [ ] |
+
+---
+
+## 最终交付清单（复制到最顶部或单独 TODO.md）
+
+- [ ] Kaggle 两竞赛银牌截图  
+- [ ] `ml-foundations` 仓库  
+- [ ] `deep-learning-portfolio` 仓库  
+- [ ] `rl-portfolio` 仓库  
+- [ ] `robotics-toolbox` 组织  
+- [ ] `Embodied-LLM-Robot` 主力仓库  
+- [ ] B 站 / YouTube 15 min 分享视频  
+
+---
+
+## 使用方式
+
+1. 每完成一行任务，把 `- [ ]` 改成 `- [x]` 并 commit & push。  
+2. 建议在对应阶段新建子文件夹，存放代码、Notebook、模型、报告。  
+3. 养成习惯：commit 信息格式 `phase1: titanic baseline 0.803`。
