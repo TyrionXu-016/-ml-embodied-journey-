@@ -7,12 +7,12 @@
 
 ## 阶段 0：Python & 数学速通（2 周）
 
-| 任务 | 输出物 | 状态 |
-|---|---|---|
-| Python 100 题 | `python-100/` 文件夹 + 代码 | - [ ] |
-| Numpy 100 题 | `numpy-100.ipynb` | - [ ] |
-| 3Blue1Brown 线性代数笔记 | `notes-linear-algebra.md` | - [ ] |
-| 概率论小测 ≥80 分 | 测验截图 | - [ ] |
+| 任务                 | 输出物                       | 状态    | 资源                                                                                   |
+|--------------------|---------------------------|-------|--------------------------------------------------------------------------------------|
+| Python 100 题       | `python-100/` 文件夹 + 代码    | - [ ] | <a href="https://leetcode.com/problemset/all">LeetCode-Python</a>                    |
+| Numpy 100 题        | `numpy-100.ipynb`         | - [ ] | <a href="https://github.com/rougier/numpy-100">GitHub rougier/numpy-100</a>          |
+| 3Blue1Brown 线性代数笔记 | `notes-linear-algebra.md` | - [ ] | <a href="https://www.bilibili.com/video/B1Ws411c7d4">Bilibili 3Blue1Brown 官方中字</a>   |
+| 概率论小测 ≥80 分        | 测验截图                      | - [ ] | <a href="https://zh.khanacademy.org/math/statistics-probability">Khan Academy 概率</a> |
 
 ---
 
@@ -86,7 +86,7 @@
 
 ---
 
-## 最终交付清单（复制到最顶部或单独 TODO.md）
+## 最终交付清单
 
 - [ ] Kaggle 两竞赛银牌截图  
 - [ ] `ml-foundations` 仓库  
@@ -95,6 +95,21 @@
 - [ ] `robotics-toolbox` 组织  
 - [ ] `Embodied-LLM-Robot` 主力仓库  
 - [ ] B 站 / YouTube 15 min 分享视频  
+
+---
+
+## 精选资源速查
+| 类型     | 名称                                                                                                                                |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 数学     | <a href="https://www.bilibili.com/video/B1Ws411c7d4">3Blue1Brown 线性代数</a>                                                         |
+| ML 入门  | <a href="https://www.coursera.org/learn/machine-learning">吴恩达 Coursera</a>                                                        |
+| 书籍     | <a href="https://github.com/ageron/handson-ml3">《Hands-On ML》第二版 </a>                                                             |
+| 深度学习   | <a href="https://pytorch.org/tutorials/">PyTorch 官方 Tutorial</a>                                                                  |
+| RL     | <a href="https://stable-baselines3.readthedocs.io/">Stable-Baselines3 文档</a>                                                      |
+| 机器人    | <a href="https://docs.ros.org/en/rolling/">ROS2 官方文档</a>                                                                          |
+| 具身智能综述 | <a href="http://mp.weixin.qq.com/s?__biz=MzI1MzUyMTMwOA==&mid=2247496753&idx=1&sn=8bde6d097cba2018289956ec7dd04cd4">万字综述·魔方AI</a> |
+| 论文库    | <a href="https://github.com/embodied-ai/awesome-embodied-ai">Embodied AI ArXiv 合集</a>                                             |
+
 
 ---
 
