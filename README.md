@@ -9,7 +9,7 @@
 
 | 任务                 | 输出物                       | 状态    | 资源                                                                                   |
 |--------------------|---------------------------|-------|--------------------------------------------------------------------------------------|
-| Python 100 题       | `python-100/` 文件夹 + 代码    | - [ ] | <a href="https://leetcode.com/problemset/all">LeetCode-Python</a>                    |
+| Python 100 题       | `python-100/` 文件夹 + 代码    | - [ ] | <a href="https://leetcode.cn/problemset/all">LeetCode-Python</a>                     |
 | Numpy 100 题        | `numpy-100.ipynb`         | - [ ] | <a href="https://github.com/rougier/numpy-100">GitHub rougier/numpy-100</a>          |
 | 3Blue1Brown 线性代数笔记 | `notes-linear-algebra.md` | - [ ] | <a href="https://www.bilibili.com/video/B1Ws411c7d4">Bilibili 3Blue1Brown 官方中字</a>   |
 | 概率论小测 ≥80 分        | 测验截图                      | - [ ] | <a href="https://zh.khanacademy.org/math/statistics-probability">Khan Academy 概率</a> |
